@@ -1,0 +1,23 @@
+.btn-blue{
+	@extend .bg-primary;
+	i{
+		margin-right: 6px;
+		font-size: 16px;
+	}
+}
+.btn-red{
+	@extend .bg-secondary;
+	z-index: 9 !important;
+}
+.btn-cantidad{
+	.btn:first-child,
+	.btn:last-child{
+		padding:6px 7px !important;
+	}
+}
+.btn-circle{
+	border-radius: 50px;
+	font-size: 40px;
+	padding: 0px 16px;
+	color: #00c944;
+}

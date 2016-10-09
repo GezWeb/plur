@@ -1,0 +1,39 @@
+// Backgrounds
+.bg-primary{
+	background: $primary-color !important;
+	color: #fff;
+}
+.bg-secondary{
+	background: $secondary-color !important;
+	color: #fff;
+}
+.bg-neutral{
+	background: $neutral-color !important;
+	color: $primary-color;
+}
+
+// Visual elements
+.border-grey{
+	border: solid 1px #ddd;
+}
+.bolder-titulo{
+	color: $primary-color !important;
+	font-weight: bold;
+}
+.invisible{
+	color: #fff;
+}
+.no-padding{
+	padding: 0 !important;
+}
+
+
+// Positions
+.centrado-absoluto{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+}

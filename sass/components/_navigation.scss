@@ -1,0 +1,16 @@
+.navigation{
+	height: 45px;
+	margin: 15px 0;
+	background: #E0E0E0;
+	border-top: solid 1px #cccccc;
+	border-bottom: solid 1px #cccccc;
+	span{
+		line-height: 45px;
+		font-size: 24px;
+	}
+}
+.fixed-buttons{
+	position: absolute;
+	bottom: 20px;
+	width: 100%;
+}

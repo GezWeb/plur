@@ -1,0 +1,25 @@
+.menu{
+	position: relative;
+	.wrap-menu{
+		transition: 1s all lineal;
+		position: absolute;
+		background: #FFF;
+		z-index: 9;
+		width: 250px;
+		height: 300px;
+		top: 0;
+		left: -250px;
+		box-shadow: 1px 1px 3px #BDBDBD;
+		img:hover{
+			cursor: pointer;
+		}
+	}
+}
+
+.menu-active{
+	background: $primary-color;
+	li{
+		height: 50px;
+
+	}
+}
